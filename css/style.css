@@ -1,0 +1,387 @@
+
+/* Start navbar */
+.navbar{
+    background-color: rgb(32,32,32,0.5);
+}
+.navbar .container a img{
+    width: 150px;
+}
+.navbar .container ul li{
+    margin-right: 15px;
+    transition: all 0.4s;
+}
+.navbar .container ul li .ac{
+    color:#E0DCD2;
+}
+.navbar .container ul li a{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    color: white;
+}
+.navbar .container ul li:hover a{
+    color: #E0B159;
+}
+.navbar .container .item .drop li{
+    transition: all 0.4s;
+}
+.navbar .container .item .drop li a{
+    color:#E0DCD2;
+}
+.navbar .container .item .drop li:hover a{
+    color: white;
+    background-color: #E0B159;
+}
+/* End navbar */
+/* Start Home */
+.home{
+    background-image: url("../images/drew-coffman-1872.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.home .container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: #fff;
+}
+.home .container .text h6{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 400;
+    font-size: 22px;
+}
+.home .container .text h1{
+    font-family: 'Alegreya Sans', sans-serif;
+    font-weight: 500;
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+.home .container .text p{
+    font-size: 17px;
+    margin-bottom: 40px;
+    width: 90%;
+}
+.home .container .text button{
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    padding: 15px 25px;
+    font-size: 14px;
+    font-weight: bold;
+    transition: all 0.4s;
+}
+.home .container .text .one{
+    background-color: #8e7754;
+    border: 2px solid transparent;
+    margin-right: 15px;
+}
+.home .container .text .one:hover{
+    color: black;
+    background-color: #fff;
+}
+.home .container .text .two{
+    border: 2px solid #fff;
+    background-color: transparent;
+}
+.home .container .text .one:hover,
+.home .container .text .two:hover{
+    color: black;
+    background-color: #fff;
+}
+
+@media(max-width:767px){
+    .home .container .text h1{
+        font-size: 35px;
+    }
+}
+/* End Home */
+/* Start About */
+.about{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.about .container .box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+}
+.about .container .box .left{
+    width: 45%;
+}
+.about .container .left img{
+    max-width: 100%;
+}
+.about .container .box .right{
+    width: 55%;
+}
+.about .container .right h1{
+    font-size: 25px;
+    font-family: "Alegreya";
+    color: #303030;
+    font-weight: 400;
+}
+.about .container .right p{
+    color: #686868;
+    font-size: 14px;
+    line-height: 1.7;
+}
+.about .container .right .txt .icons{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    gap: 10px;
+}
+.about .container .right .txt .icons .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid rgb(0,0,0,0.15);
+    border-radius: 50%;
+    padding: 10px;
+}
+.about .container .right .txt .icons .icon i{
+    color: #8e7754;
+    font-size: 20px;
+
+}
+@media(max-width: 767px){
+    .about .container .box{
+        flex-direction: column;
+    }
+    .about .container .right p{
+        margin-bottom: 40px;
+    }
+    .about .container  .box .right,
+    .about .container .box .left{
+        width: 100%;
+    }
+}
+/* End About */
+/* start Our location */
+.location {
+    background-color: #f8f8f8;
+    padding: 70px;
+}
+.location .container .big{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.location .container .big .text{
+    width: 50%;
+}
+.location .container .big .text h1{
+    font-size: 30px;
+    font-family: "Alegreya";
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.location .container .big .text p{
+    color: #686868;
+    font-size: 14.5px;
+    line-height: 1.7;
+}
+.location .container .big .image{
+    width: 50%;
+}
+.location .container .big .image img{
+    width: 100%;
+}
+@media(max-width: 767px){
+    .location{
+        padding: 50px 0;
+    }
+    .location .container .big{
+        flex-direction: column;
+    }
+    .location .container .big .text,
+    .location .container .big .image{
+        width: 100%;
+    }
+}
+/* end our location */
+/* start our Baking */
+.baking{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+.baking .container .text{
+    text-align: center;
+}
+.baking .container .text h1{
+    font-size: 30px;
+    font-family: "Alegreya";
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+.baking .container .text p{
+    font-size: 15px;
+    color: #888;
+}
+.baking .container .box{
+    margin-top: 50px;
+    display: flex;
+    gap: 40px;
+}
+.baking .container .box .demo .image{
+    width: 100%;
+}
+.baking .container .box .demo .image img{
+    width: 100%;
+}
+.baking .container .box .demo .txt{
+    text-align: center;
+    margin-top: 30px;
+}
+.baking .container .box .demo .txt h2{
+    color: #303030;
+    font-size: 20px;
+    font-family: "Alegreya";
+    font-weight: 400;
+    margin-bottom: 15px;
+}
+.baking .container .box .demo .txt p{
+    color: #686868;
+    font-size: 14px;
+}
+@media(max-width:767px){
+    .baking .container .box{
+        flex-direction: column ;
+    }
+}
+/* end our Baking */
+/* start information */
+.info{
+    background-color: #f8f8f8;
+    padding: 70px;
+}
+.info .container .box{
+    display: flex;
+    gap: 50px;
+}
+.info .container .box .left{
+    width: 50%;
+}
+.info .container .box .left h1{
+    font-size: 30px;
+    font-family: "Alegreya";
+    color: #303030;
+    font-weight: 400;
+    margin-bottom: 25px;
+}
+.info .container .box .left p{
+    color: #686868;
+    font-size: 14px;
+    line-height: 1.7;
+    margin-bottom: 30px;
+}
+.info .container .box .left .txt h2{
+    font-size: 12px;
+    color: #686868;
+    margin-bottom: 30px;
+}
+.info .container .box .left .txt .icons{
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+.info .container .box .left .txt .icons .icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    padding: 10px;
+    background-color: #8e7754;
+}
+.info .container .box .left .txt .icons .icon i{
+    color: white;
+    font-size: 17px;
+}
+.info .container .box .left .txt .icons .text span{
+    font-size: 13px;
+    color: #686868;
+}
+.info .container .box .right{
+    width: 50%;
+}
+.info .container .box .right iframe{
+    width: 100%;
+    height: 450px;
+}
+@media(max-width:767px){
+    .info .container .box{
+        flex-direction: column ;
+    }
+    .info .container .box .right,
+    .info .container .box .left{
+        width: 100%;
+    }
+}
+/* End information */
+/* satrt contact */
+.contact{
+    background-color: #403d38;
+    padding: 50px 20px;
+}
+.contact .container .row .box{
+    margin-bottom: 20px;
+}
+.contact .container .row .box h2{
+    color: white;
+    font-size: 17px;
+    font-family: 'Alegreya', serif;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+.contact .container .row .box p{
+    color: #969696;
+    font-size: 14px;
+    margin-bottom: 0;
+}
+.contact .container .row .box .image{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding:10px 0 ;
+}
+.contact .container .row .box .image i{
+    color: #969696;
+    font-size: 12px;
+}
+.contact .container .row .box .image:not(:last-of-type){
+    border-bottom: 1px solid rgba(255,255,255,0.05);
+}
+/* end contact */
+/* Start footer */
+.footer{
+    background-color: #353330;
+    text-align: center;
+    padding-top: 70px;
+}
+.footer .bakery{
+    width: 300px;
+    margin-bottom: 25px;
+}
+.footer p{
+    color: #969696;
+    font-size: 14px;
+}
+.footer .image{
+    background-color: #403d38;
+    width: 35px;
+    border: 1px solid transparent;
+    border-radius: 50%;
+    margin: 20px 5px 50px;
+}
+/* End footer */
+
